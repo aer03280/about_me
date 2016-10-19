@@ -1,1 +1,23 @@
 
+
+
+h1 {
+  font-family: cursive;
+  font-size: 3em;
+  text-align: center;
+  background-color: #00A5C6;
+  border: 2px solid black
+}
+
+
+body{
+  background-color: yellow
+}
+
+.maintext {
+  color: green;
+  font-size: 1em;
+  padding: 20%;
+  padding-top: 3%;
+
+}
