@@ -3,6 +3,19 @@
 var userName = prompt('Welcome to my page! What is your name?');
 console.log('My visitor\'s name is: ' + userName);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 var startQuiz = prompt('Hello, ' + userName + ', thank you for taking interest in my life.  Would you like to take a quiz about me? Enter Yes or No.');
 var question2String = 'Excellent!  Here\'s the first question: Do I have a Biology Degree?';
 
