@@ -3,21 +3,117 @@
 
 h1 {
   font-family: cursive;
-  font-size: 3em;
+  font-size: 25px;
   text-align: center;
+  vertical-align: middle;
   background-color: #00A5C6;
-  border: 2px solid black
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  display: table-cell;;
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
+
+
+#intro {
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: orange;
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: table-cell;
+  /*padding-top: 400px;
+  margin-top: 100px;*/
+
+}
+
+#firstpara {
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: orange;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  /*border-radius: 50%;*/
+  display: table-cell;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+
+/*h1 {
+  font-family: cursive;
+  /*font-size: 2em;*/
+  /*vertical-align: middle;*/
+  /*text-align: center;*/
+  /*background-color: #00A5C6;
+  border: 2px solid black;*/
+  /**border-radius: 50%;
+  padding: 15%;
+  width: 70px;
+  height: 70px;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  background-color: teal;
+  font-size: 40px;
+  line-height: 25px;
+  color: black;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*display: table-cell;*/
+  /*padding: 25%;*/
+  /*padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: -170px;*/
+  /*border: 2px solid black;*/
+/*}*/
+
+
+
 
 
 body{
   background-color: yellow
 }
 
-.maintext {
+/*.maintext {
   color: green;
   font-size: 1em;
   padding: 20%;
   padding-top: 3%;
 
+}*/
+
+#orderedlist{
+  background-color: teal;
+  border-radius: 50%;
+}
+
+ol{
+  background-color: teal;
+  border-radius: 50%;
+  text: center;
+}
+
+.unlist{
+  /*padding-left: 0 0 100px 100px;*/
+  /*margin: auto;
+  background-color: orange;*/
+  /*border-radius: 50%;*/
+  /*width: 300px;
+  height: 300px;
 }
