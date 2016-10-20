@@ -1,5 +1,5 @@
 'use strict';
-// WELCOME PROMPT
+// WELCOME PROMPT testing
 var userName = prompt('Welcome to my page! What is your name?');
 console.log('My visitor\'s name is: ' + userName);
 
