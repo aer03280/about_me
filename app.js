@@ -64,8 +64,6 @@ for (var numGuesses = 0; numGuesses < 3; numGuesses++){
   alert('It took you too many guesses.  I\'m 36.  Let\'s try another question.');
 }
 
-}
-
 if (ageQuiz > 36) {
   prompt ('Too high! Guess again.');
   console.log(userName + '\'s guess was too high.');
