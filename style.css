@@ -3,21 +3,112 @@
 
 h1 {
   font-family: cursive;
-  font-size: 3em;
+  font-size: 25px;
   text-align: center;
-  background-color: #00A5C6;
-  border: 2px solid black
+  vertical-align: middle;
+  background-color: teal;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: table-cell;
 }
 
+#intro {
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #D45C13;
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: table-cell;
+}
+
+#firstpara {
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #BD13D4;
+  border: 2px solid black;
+  width: 450px;
+  height: 50px;
+  display: table-cell;
+  margin-right: 100px;
+}
+
+#secpara {
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #BD13D4;
+  border: 2px solid black;
+  width: 500px;
+  height: 50px;
+  /*border-radius: 50%;*/
+  display: table-cell;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#thirdpara{
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #BD13D4;
+  border: 2px solid black;
+  width: 500px;
+  height: 50px;
+  /*border-radius: 50%;*/
+  display: table-cell;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 body{
   background-color: yellow
 }
 
-.maintext {
-  color: green;
-  font-size: 1em;
-  padding: 20%;
-  padding-top: 3%;
+.listsbackground{
+  font: helvetica;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  border: 2px solid black;
+  width: 500px;
+  height: 50px;
+  /*border-radius: 50%;*/
+  display: table-cell;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
+.orderedlistclass{
+  background-color: #2AD413;
+  border: 2px solid black;
+  margin-top: 100px;
+}
+
+#orderedlisttitle {
+  font: helvetica;
+  font-size: 16px;
+}
+
+/*ol{
+  background-color: #2AD413;
+  border-radius: 50%;
+  border: 2px solid black;
+  text: center;
+}*/
+
+.unlistclass{
+  background-color: violet;
+  border: 2px solid black;
+  /*margin-top: 100px;*/
 }
