@@ -16,7 +16,9 @@ var score = 0;
 // //   } else {
 // //     console.log(answerWrong);
 // //     var ansA = alert(answerWrong);
-// //   }
+// //   } else {
+          // prompt = (Please try again with a Yes or No answer.);
+      // }
 // // }
 // // // QUESTION 0 "PLAY"
 // // yesNoQ('Yes or No: Would you like to play a game about ME?' , 'Great ' + userName + ', let\'s get started!' , 'That\'s too bad, ' + userName + '. I think you\'ll enjoy it.  Let\'s get started anyway.' , 'Yes' , 'yes');
@@ -52,14 +54,14 @@ var score = 0;
 //       console.log(lowResponse);
 //       // continue;
 //     } else {
-//       prompt(correctResponse);
+//       alert(correctResponse);
 //       console.log(correctResponse);
 //       score += 1;
 //       break;
 //     }
 //   }
 // }
-// numberGuess('How old am I? \(You get four chances to guess correctly!\)' , 'Too high! Guess again.' , 'Too low! Guess again.' , 'You got it! I\'m 36. Let\'s try another question.' , 'It took you too many guesses.  I\'m 36.  Let\'s try another question.' , 4 , 36);
+// numberGuess('How old am I? \(You get four chances to guess correctly!\)' , 'Too high! Guess again.' , 'Too low! Guess again.' , 'You got it! I\'m 36. Click ok to try another question.' , 'It took you too many guesses.  I\'m 36.  Let\'s try another question.' , 4 , 36);
 // // ///////////////////////////////////////
 // // ///////////////////////////////////////
 // // QUESITON 7 "MULTIPLE ANSWERS"
@@ -72,7 +74,8 @@ function stateLive(noAttempts, maxAttempts) {
       alert(noAttempts);
       console.log(noAttempts);
     } else if (stateGuess = correctStates && numGuess < maxAttempts); {
-      alert('Yes, ' + userName + 'I have lived in ' + stateGuess + '. Click ok to see a list of all the states I\'ve lived in.');
+      alert('Yes, ' + userName + 'I have lived in ' + correctStates[0] + '. Click ok to see a list of all the states I\'ve lived in.');
+      prompt('I have lived in' + correctStates.split(''));
       console.log('Yes, ' + userName + 'I have lived in ' + 'correctStates(string.split)' + '.');
       score += 1;
       break;
@@ -80,7 +83,7 @@ function stateLive(noAttempts, maxAttempts) {
     alert('I have lived in ' + correctStates + '.');
   }
 }
-stateLive('Wow, ' + userName + ', you used up all your guesses.  The states I\'ve lived in are: ' + correctStates + '. Click ok to see your score.' , 6);
+stateLive('Wow, ' + userName + ', you used up all your guesses.  The states I\'ve lived in are: ' + correctStates[0] + '. Click ok to see your score.' , 6);
 
 // // ///////////////////////////////////////
 // function giveScore(){
