@@ -38,7 +38,7 @@ if (travelQuiz.toLowerCase() === 'yes' || travelQuiz.toLowerCase() === 'y') {
   console.log(userName + ' did not give a valid answer.');
 }
 
-// Question 3 "BRO"A
+// Question 3 "BRO"
 var broQuiz = prompt ('Is it true that I have one brother?');
 
 if (broQuiz.toLowerCase() === 'no' || broQuiz.toLowerCase() === 'n') {
@@ -47,19 +47,10 @@ if (broQuiz.toLowerCase() === 'no' || broQuiz.toLowerCase() === 'n') {
 } else if (broQuiz.toLowerCase() === 'yes' || broQuiz.toLowerCase() === 'y') {
   alert ('You are incorrect.  I do not have a brother.');
   console.log(userName + ' was INCORRECT.  I do not have a brother.');
+
 } else {
   alert ('I\'m not sure you were paying attention.  I asked for a Yes or No answer.  Let\'s move on to the next question.');
   console.log(userName + ' did not give a valid answer.');
-}
-
-// Question 3 "BRO"B
-var broQuiz = prompt ('Is it true that I have one brother?');
-if (broQuiz.toLowerCase() === 'no' || broQuiz.toLowerCase() === 'n'){
-  alert ('Great, ' + userName + '! You are correct that I do not have a brother.  I am an only child.');
-  console.log(userName + ' was CORRECT. I do not have a brother.');
-} else {
-  alert ('Nope, ' + userName + ', I do not have a brother.  I am an only child.');
-  console.log(userName + ' was INCORRECT.  I do not have a brother.');
 }
 
 // Question 4 "DOG"
@@ -95,7 +86,8 @@ for (var numGuesses = 0; numGuesses < 4; numGuesses++) {
     var high = alert('Too high! Guess again.');
     continue;
   } else if (ageQuiz == 36){
-    var correct = alert('You got it! I\'m 36. Thanks for taking my quiz. Bye.');
+    var correct = alert('You got it! I\'m 36!');
+    alert('Thanks for taking my quiz. Bye');
     break;
   }
 }
